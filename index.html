@@ -1,69 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Web-A-Thon</title>
-	<link rel="icon" type="image/icon" href="./hex.png">
-
-	<!-- META -->
-	<meta property="og:site_name " content="Web-A-Thon" />
-	<meta property="og:title" content="" />
-	<meta property="og:description" content="" />
-	<meta property="og:image" content="./hex.png" />
-
-	<!-- LINK -->
-	<link rel="stylesheet" type="text/css" href="./nucleus/css/style.css">
-	<script type="text/javascript" src="./nucleus/javascript/main.js"></script>
-	<script type="text/javascript" src="./nucleus/javascript/gsap.js"></script>
-
-	<link rel="stylesheet" type="text/css" href="" media="screen and (min-device-width: 800px">
-  <link rel="stylesheet" type="text/css" href="./nucleus/css/style-tab.css" media='screen and (min-width: 200px) and (max-width: 800px)'>
-	<link rel="stylesheet" type="text/css" href="./nucleus/css/style-ad.css" media='screen and (min-width: 0px) and (max-width: 400px)'>
-
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ISA | Profile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./himesh.css"> -->
 </head>
+
 <body>
+    <div class="profile-header">
+        <div class="profile-photo">
+            <img src="./profile-img.jpg" alt="Profile Photo">
+        </div>
+        <div class="user-info">
+            <div>Sanket Dhuri</div>
+            <div>2022.sanket.dhuri@ves.ac.in</div>
+            <button id="editProfileBtn">Edit Profile</button>
+        </div>
+    </div>
+    <div class="wish-lists">
+        <h2>Cart</h2>
+        <!-- generate the number of wish-box you get from the API response -->
+        <div class="wish-box">
+            <img src="./profile-img.jpg">
+            <h2>PCB board</h2>
+            <p>some random description .......</p>
+        </div>
+        <div class="wish-box">
+            <img src="./profile-img.jpg">
+            <h2>PCB board</h2>
+            <p>some random description .......</p>
+        </div>
+        <div class="wish-box">
+            <img src="./profile-img.jpg">
+            <h2>PCB board</h2>
+            <p>some random description .......</p>
+        </div>
+        <div class="wish-box">
+            <img src="./profile-img.jpg">
+            <h2>PCB board</h2>
+            <p>some random description .......</p>
+        </div>
+        <div class="wish-box">
+            <img src="./profile-img.jpg">
+            <h2>PCB board</h2>
+            <p>some random description .......</p>
+        </div>
+        <div class="wish-box">
+            <img src="./profile-img.jpg">
+            <h2>PCB board</h2>
+            <p>some random description .......</p>
+        </div>
+        <!-- Add more wish boxes as needed -->
+    </div>
+    <div class="previous-purchases">
+        <h2>Previous Purchases</h2>
+        <!-- generate the number of purchase-box you get from the API response -->
+        <div class="purchase-box">
+            <img src="./profile-img.jpg">
+            <div>
+                <h2>PCB board</h2>
+                <p>some random description ...</p>
+            </div>
+        </div>
+        <div class="purchase-box">
+            <img src="./profile-img.jpg">
+            <div>
+                <h2>PCB board</h2>
+                <p>some random description ....</p>
+            </div>
+        </div>
+        <div class="purchase-box">
+            <img src="./profile-img.jpg">
+            <div>
+                <h2>PCB board</h2>
+                <p>some random description ....</p>
+            </div>
+        </div>
+        <div class="purchase-box">
+            <img src="./profile-img.jpg">
+            <div>
+                <h2>PCB board</h2>
+                <p>some random description ....</p>
+            </div>
+        </div>
+    </div>
 
-<body onload="loading()">
-<div id="Preloader"></div>
-
-
-
-	<section id="Home">
-
-	</section>
-
-
-
-	<section id="About">
-		
-	</section>
-
-
-	<section id="Contact">
-		
-	</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-  var load = document.getElementById('Preloader');
-  function loading(){
-    load.style.display = 'none';
-  }
-  
-</script>
-
-
+    <script src="./script.js"></script>
 </body>
+
 </html>
